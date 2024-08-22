@@ -4,17 +4,12 @@ This script checks for the correct baud rate of a serial device. If it detects t
 
 ![ray-so-export (1)](https://github.com/user-attachments/assets/505344bf-c494-4a18-aa92-798e576be628)
 
-## Prerequisites
-
-- Python 3.x
-- `pyserial` library
-- `picocom` (for interacting with the serial device)
 
 ## Installation
 
 1. **Install Python 3.x**: Ensure you have Python 3.x installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
 
-2. **Run** setup.sh to configure your enviornment
+2. **Run** `setup.sh` to configure your enviornment
 
 ## Usage
 
