@@ -14,15 +14,7 @@ This script checks for the correct baud rate of a serial device. If it detects t
 
 1. **Install Python 3.x**: Ensure you have Python 3.x installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
 
-2. **Install `pyserial`**: Install the `pyserial` library using `pip`:
-    ```sh
-    pip install pyserial
-    ```
-
-3. **Install `picocom`**: Install `picocom` on your system. On Debian-based systems, you can install it using:
-    ```sh
-    sudo apt-get install picocom
-    ```
+2. **Run** setup.sh to configure your enviornment
 
 ## Usage
 
