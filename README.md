@@ -28,13 +28,13 @@ This script checks for the correct baud rate of a serial device. If it detects t
 
 1. **Clone the Repository**:
     ```sh
-    git clone https://github.com/yourusername/baudratechecker.git
-    cd baudratechecker
+    git clone https://github.com/yourusername/baudscan.git
+    cd baudscan
     ```
 
 2. **Run the Script**:
     ```sh
-    python baudratecheck.py
+    python baudScan.py
     ```
 
 3. **Follow the Prompts**:
