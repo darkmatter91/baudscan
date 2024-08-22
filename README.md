@@ -2,6 +2,8 @@
 
 This script checks for the correct baud rate of a serial device. If it detects the right baud rate, it prompts the user to interact with the device using `picocom`.
 
+![ray-so-export (1)](https://github.com/user-attachments/assets/505344bf-c494-4a18-aa92-798e576be628)
+
 ## Prerequisites
 
 - Python 3.x
