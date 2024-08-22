@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import serial
 import serial.tools.list_ports
 import subprocess
@@ -69,19 +71,7 @@ def run_baudscan():
 
 def main():
     print_banner()
-    while True:
-        print("Run Options:")
-        print("1. Run BaudScan (Serial cables are configured)")
-        print("2. Exit")
-        choice = input("Enter your choice: ")
-
-        if choice == "1":
-            run_baudscan()
-        elif choice == "2":
-            print("Exiting...")
-            break
-        else:
-            print("Invalid choice. Please enter 1 or 2.")
+    run_baudscan()
 
 
 if __name__ == "__main__":
